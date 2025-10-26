@@ -105,3 +105,63 @@
   </div>
 </body>
 </html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contacto - Angela Becerra Amado</title>
+  <style>
+    :root{
+      --bg:#f8fafc;--card:#ffffff;--accent:#8b5cf6;--muted:#64748b;
+      font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;
+    }
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#eef2ff);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px}
+    .container{width:100%;max-width:700px;background:var(--card);border-radius:16px;box-shadow:0 8px 30px rgba(20,20,50,0.08);overflow:hidden;border:1px solid rgba(16,24,40,0.04)}
+    header{padding:28px;text-align:center;background:linear-gradient(90deg,#fafafa,var(--accent));color:white}
+    header h1{margin:0;font-size:24px}
+    main{padding:24px;display:flex;flex-direction:column;gap:20px}
+    .info{display:flex;flex-direction:column;gap:8px}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .card{background:var(--card);padding:16px;border-radius:12px;border:1px solid rgba(16,24,40,0.05)}
+    .label{font-size:13px;color:var(--muted)}
+    .value{font-size:16px;font-weight:600;margin-top:4px}
+    footer{text-align:center;padding:18px;border-top:1px solid rgba(16,24,40,0.05);color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Contacto de Angela Becerra Amado</h1>
+      <p style="font-size:14px;margin-top:6px">Estudiante de Administración de Negocios y Diseño de Modas</p>
+    </header>
+
+    <main>
+      <div class="card">
+        <div class="label">LinkedIn</div>
+        <div class="value"><a href="https://www.linkedin.com/in/angela-becerra-0b6ab6345/" target="_blank">https://www.linkedin.com/in/angela-becerra-0b6ab6345/</a></div>
+      </div>
+
+      <div class="card">
+        <div class="label">Correo electrónico</div>
+        <div class="value"><a href="mailto:angela.becerraamado@gmail.com">angela.becerraamado@gmail.com</a></div>
+      </div>
+
+      <div class="card">
+        <div class="label">Instagram</div>
+        <div class="value"><a href="https://www.instagram.com/rosa_roja2023" target="_blank">@rosa_roja2023</a></div>
+      </div>
+
+      <div class="card">
+        <div class="label">Carreras</div>
+        <div class="value">Administración de Negocios y Diseño de Modas</div>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2025 Angela Becerra Amado — Página de contacto personal</p>
+    </footer>
+  </div>
+</body>
+</html>
